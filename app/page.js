@@ -1,12 +1,7 @@
-import Counter from "@/components/counter"
-
-
+import Counter from "@/components/counter";
 
 const Home = () => {
+  return <Counter />;
+};
 
-  return (
-<Counter/>
-  )
-}
-
-export default Home
+export default Home;
